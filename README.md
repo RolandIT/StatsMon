@@ -1,4 +1,4 @@
-# Web service for displaying PC serources
+# Web service for displaying PC resources
 
 Usage: 
 1. docker build -t "statsmon"
