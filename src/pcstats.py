@@ -1,10 +1,8 @@
 import psutil
 import math
 
-#dictionary to hold all the current resource stats
-
-
 def getStats():
+    #dictionary to hold all the current resource stats
     stats = {}
 
     stats["cpu_count_logical"] = psutil.cpu_count()
